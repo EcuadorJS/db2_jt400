@@ -1,0 +1,42 @@
+import Enum from '../util/Enum';
+
+const DataTypes = new Enum({
+    ARRAY           : {value: 2003},
+    BIGINT          : {value: -5},
+    BINARY          : {value: -2},
+    BIT             : {value: -7},
+    BLOB            : {value: 2004},
+    BOOLEAN         : {value: 16},
+    CHAR            : {value: 1},
+    CLOB            : {value: 2005},
+    DATALINK        : {value: 70},
+    DATE            : {value: 91},
+    DECIMAL         : {value: 3},
+    DISTINCT        : {value: 2001},
+    DOUBLE          : {value: 8},
+    FLOAT           : {value: 6},
+    INTEGER         : {value: 4},
+    JAVA_OBJECT     : {value: 2000},
+    LONGNVARCHAR    : {value: -16},
+    LONGVARBINARY   : {value: -4},
+    LONGVARCHAR     : {value: -1},
+    NCHAR           : {value: -15},
+    NCLOB           : {value: 2011},
+    NULL            : {value: 0},
+    NUMERIC         : {value: 2},
+    NVARCHAR        : {value: -9},
+    OTHER           : {value: 1111},
+    REAL            : {value: 7},
+    REF             : {value: 2006},
+    ROWID           : {value: -8},
+    SMALLINT        : {value: 5},
+    SQLXML          : {value: 2009},
+    STRUCT          : {value: 2002},
+    TIME            : {value: 92},
+    TIMESTAMP       : {value: 93},
+    TINYINT         : {value: -6},
+    VARBINARY       : {value: -3},
+    VARCHAR         : {value: 12}
+});
+
+export default DataTypes;

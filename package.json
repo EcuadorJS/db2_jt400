@@ -1,0 +1,33 @@
+{
+  "name": "db2_jt400",
+  "version": "0.0.1",
+  "description": "Driver for IBM DB2 for i",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcuadorJS/db2_jt400.git"
+  },
+  "keywords": [
+    "driver"
+  ],
+  "author": "EcuadorJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EcuadorJS/db2_jt400/issues"
+  },
+  "homepage": "https://github.com/EcuadorJS/db2_jt400#readme",
+  "devDependencies": {
+    "es6-module-loader": "^0.17.3",
+    "es6-shim": "^0.32.2",
+    "expect.js": "^0.3.1",
+    "mocha-traceur": "^2.1.0",
+    "traceur": "0.0.90"
+  },
+  "dependencies": {
+    "java": "^0.5.4",
+    "string": "^3.3.0"
+  }
+}
