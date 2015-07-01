@@ -27,6 +27,8 @@
     "traceur": "0.0.90"
   },
   "dependencies": {
+    "bignumber.js": "^2.0.7",
+    "generic-pool": "^2.2.0",
     "java": "^0.5.4",
     "string": "^3.3.0"
   }

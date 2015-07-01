@@ -24,7 +24,7 @@ class ConnectionPoolDataSource {
         try {
             this._instanceDriver = JDBCDriver.instance;
             this._connectionPoolDataSourse = java.newInstanceSync(this._className, this._config.host, this._config.user, this._config.password);
-            this._connectionPool = new ConnectionPool(this._connectionPoolDataSourse);
+            this._connectionPool = new ConnectionPool(this._connectionPoolDataSourse, this._config.pool);
         } catch(err) {
             throw err;
         }
